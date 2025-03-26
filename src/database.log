@@ -1,0 +1,9 @@
+[2025-03-26 11:40:41,712] [INFO] [database] Checking if database 'quantdb' exists
+[2025-03-26 11:43:19,800] [INFO] [database] Checking if database 'quantdb' exists
+[2025-03-26 11:43:41,399] [ERROR] [database] Database initialization failed: connection to server at "113.45.40.20", port 8080 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-03-26 11:54:08,377] [INFO] [database] Checking if database 'quantdb' exists
+[2025-03-26 11:54:29,433] [ERROR] [database] Database initialization failed: connection to server at "113.45.40.20", port 8080 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
