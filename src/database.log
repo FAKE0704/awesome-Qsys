@@ -459,3 +459,22 @@ HINT:  Check the query against the passed list of arguments.
 [2025-03-28 18:55:05,824] [INFO] [database] Found 0 missing data ranges for sh.600622
 [2025-03-28 18:55:05,853] [INFO] [database] 数据库表结构初始化完成
 [2025-03-28 18:55:05,914] [INFO] [database] Successfully loaded 264 rows for sh.600622
+[2025-03-30 06:06:33,918] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:33,967] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:34,038] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:38,675] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:39,352] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:39,450] [INFO] [database] Loading stock data for sh.600622 from 2025-03-30 to 2025-03-30
+[2025-03-30 06:06:39,691] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-30 to 2025-03-30
+[2025-03-30 06:06:39,714] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:39,759] [INFO] [database] Found 0 missing data ranges for sh.600622
+[2025-03-30 06:06:39,789] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:39,865] [WARNING] [database] No data found for sh.600622 in specified date range
+[2025-03-30 06:06:44,270] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:44,774] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:44,859] [INFO] [database] Loading stock data for sh.600622 from 2025-03-21 to 2025-03-30
+[2025-03-30 06:06:45,090] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-21 to 2025-03-30
+[2025-03-30 06:06:45,113] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:06:45,159] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-30 06:06:45,170] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-30 06:06:45,186] [ERROR] [database] Failed to load stock data: No module named 'baostock'
