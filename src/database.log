@@ -478,3 +478,86 @@ HINT:  Check the query against the passed list of arguments.
 [2025-03-30 06:06:45,159] [INFO] [database] Found 1 missing data ranges for sh.600622
 [2025-03-30 06:06:45,170] [INFO] [database] Fetching missing data ranges for sh.600622
 [2025-03-30 06:06:45,186] [ERROR] [database] Failed to load stock data: No module named 'baostock'
+[2025-03-30 06:14:58,233] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:14:58,281] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:14:58,351] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:15:02,842] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:15:04,489] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:15:05,424] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:15:05,513] [INFO] [database] Loading stock data for sh.600622 from 2025-03-01 to 2025-03-30
+[2025-03-30 06:15:05,757] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-01 to 2025-03-30
+[2025-03-30 06:15:05,780] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:15:05,830] [INFO] [database] Found 3 missing data ranges for sh.600622
+[2025-03-30 06:15:05,841] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-30 06:15:05,881] [ERROR] [database] Failed to load stock data: No module named 'aiohttp'
+[2025-03-30 06:16:58,993] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:16:59,075] [INFO] [database] Loading stock data for sh.600622 from 2025-03-01 to 2025-03-30
+[2025-03-30 06:16:59,314] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-01 to 2025-03-30
+[2025-03-30 06:16:59,336] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:16:59,381] [INFO] [database] Found 3 missing data ranges for sh.600622
+[2025-03-30 06:16:59,391] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-30 06:17:03,971] [INFO] [database] Fetching data from 2025-03-03 to 2025-03-07
+[2025-03-30 06:17:04,232] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:17:04,325] [INFO] [database] 成功保存sh.600622的5频率数据，共240条记录
+[2025-03-30 06:17:04,326] [INFO] [database] Fetching data from 2025-03-10 to 2025-03-11
+[2025-03-30 06:17:04,536] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:17:04,582] [INFO] [database] 成功保存sh.600622的5频率数据，共96条记录
+[2025-03-30 06:17:04,583] [INFO] [database] Fetching data from 2025-03-24 to 2025-03-28
+[2025-03-30 06:17:04,801] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:17:04,857] [INFO] [database] 成功保存sh.600622的5频率数据，共240条记录
+[2025-03-30 06:17:04,874] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:17:04,938] [INFO] [database] Successfully loaded 880 rows for sh.600622
+[2025-03-30 06:17:16,681] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:17:17,027] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:17:17,077] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:17:17,152] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:21:04,733] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:21:34,986] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:21:36,099] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:21:36,670] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:21:40,445] [INFO] [database] 数据库表结构初始化完成
+[2025-03-30 06:21:42,865] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:47:48,528] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:47:48,616] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:47:48,705] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:47:50,980] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:47:54,930] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:47:55,767] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:48:00,172] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:48:03,274] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:48:08,342] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:48:16,688] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:48:27,588] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:48:27,772] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:51:33,507] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:51:35,061] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:51:38,634] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:51:40,535] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:51:42,759] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:57:31,842] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:59:45,620] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:59:51,298] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 02:59:52,434] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 03:47:29,750] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 03:47:32,094] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 04:04:38,758] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 04:04:41,281] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 04:05:35,274] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 04:06:04,869] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 04:06:05,863] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 04:19:55,331] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 04:19:56,315] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:03:30,816] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:03:32,261] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:06:33,513] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:06:34,790] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:07:41,210] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:07:42,526] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:12:17,342] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:12:18,184] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:13:23,231] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:13:24,255] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:14:40,202] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:14:41,179] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:15:23,627] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 05:15:24,525] [INFO] [database] 数据库表结构初始化完成
