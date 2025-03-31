@@ -561,3 +561,183 @@ HINT:  Check the query against the passed list of arguments.
 [2025-03-31 05:14:41,179] [INFO] [database] 数据库表结构初始化完成
 [2025-03-31 05:15:23,627] [INFO] [database] 数据库表结构初始化完成
 [2025-03-31 05:15:24,525] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:46:39,673] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:46:39,730] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:46:39,803] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:46:45,881] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:46:48,043] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:46:48,895] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:46:49,004] [INFO] [database] Loading stock data for sh.600622 from 2025-03-01 to 2025-03-31
+[2025-03-31 11:46:49,345] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-01 to 2025-03-31
+[2025-03-31 11:46:49,375] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:46:49,430] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 11:46:49,439] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 11:46:50,316] [INFO] [database] Fetching data from 2025-03-31 to 2025-03-31
+[2025-03-31 11:46:50,508] [ERROR] [database] Failed to load stock data: 未获取到数据, symbol: sh.600622,start_date:2025-03-31, end_date:2025-03-31, frequency: 5
+[2025-03-31 11:47:01,926] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:03,929] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:04,571] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:04,651] [INFO] [database] Loading stock data for sh.600622 from 2025-03-01 to 2025-03-31
+[2025-03-31 11:47:04,952] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-01 to 2025-03-31
+[2025-03-31 11:47:04,970] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:05,011] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 11:47:05,030] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 11:47:05,031] [INFO] [database] Fetching data from 2025-03-31 to 2025-03-31
+[2025-03-31 11:47:05,180] [ERROR] [database] Failed to load stock data: 未获取到数据, symbol: sh.600622,start_date:2025-03-31, end_date:2025-03-31, frequency: 5
+[2025-03-31 11:47:11,348] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:17,830] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:18,018] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:27,449] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:28,704] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:28,786] [INFO] [database] Loading stock data for sh.600622 from 2025-03-01 to 2025-03-31
+[2025-03-31 11:47:29,096] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-01 to 2025-03-31
+[2025-03-31 11:47:29,116] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:47:29,163] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 11:47:29,178] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 11:47:29,180] [INFO] [database] Fetching data from 2025-03-31 to 2025-03-31
+[2025-03-31 11:47:29,360] [ERROR] [database] Failed to load stock data: 未获取到数据, symbol: sh.600622,start_date:2025-03-31, end_date:2025-03-31, frequency: 5
+[2025-03-31 11:49:03,457] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:49:05,661] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:49:05,753] [INFO] [database] Loading stock data for sh.600622 from 2025-03-01 to 2025-03-31
+[2025-03-31 11:49:06,088] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-01 to 2025-03-31
+[2025-03-31 11:49:06,109] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:49:06,152] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 11:49:06,167] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 11:49:06,177] [INFO] [database] Fetching data from 2025-03-31 to 2025-03-31
+[2025-03-31 11:49:06,322] [ERROR] [database] Failed to load stock data: 未获取到数据, symbol: sh.600622,start_date:2025-03-31, end_date:2025-03-31, frequency: 5
+[2025-03-31 11:51:21,746] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:51:23,379] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:52:48,687] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:52:50,237] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:53:07,419] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:53:08,839] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:53:25,839] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:53:28,437] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:54:20,786] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:54:22,574] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:54:22,659] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 11:54:22,910] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 11:54:22,955] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:54:22,990] [ERROR] [database] 检查数据完整性失败: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 11:54:22,991] [ERROR] [database] Failed to load stock data: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 11:56:41,387] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:56:44,142] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:56:44,246] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 11:56:44,734] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 11:56:44,783] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:56:44,838] [ERROR] [database] 检查数据完整性失败: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 11:56:44,839] [ERROR] [database] Failed to load stock data: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 11:59:28,040] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:59:30,721] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 11:59:30,822] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 11:59:31,359] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 11:59:31,361] [ERROR] [database] 检查数据完整性失败: strptime() argument 1 must be str, not Timestamp
+[2025-03-31 11:59:31,361] [ERROR] [database] Failed to load stock data: strptime() argument 1 must be str, not Timestamp
+[2025-03-31 12:00:07,873] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:00:12,036] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:00:12,159] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:00:12,963] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:00:12,983] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:00:13,041] [ERROR] [database] 检查数据完整性失败: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 12:00:13,042] [ERROR] [database] Failed to load stock data: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 12:01:06,857] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:01:08,841] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:01:08,928] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:01:09,244] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:01:09,262] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:01:09,300] [ERROR] [database] 检查数据完整性失败: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 12:01:09,301] [ERROR] [database] Failed to load stock data: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 12:02:34,435] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:02:39,550] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:02:39,652] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:02:40,076] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:02:40,099] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:02:40,154] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 12:02:40,176] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 12:02:40,181] [INFO] [database] Fetching data from 2025-03-31 to 2025-03-31
+[2025-03-31 12:02:40,902] [ERROR] [database] Failed to load stock data: 未获取到数据, symbol: sh.600622,start_date:2025-03-31, end_date:2025-03-31, frequency: 5
+[2025-03-31 12:05:10,156] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:05:12,235] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:05:12,330] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:05:12,780] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:05:12,815] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:05:12,860] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 12:05:12,877] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 12:05:12,883] [INFO] [database] Fetching data from 20250331 to 20250331
+[2025-03-31 12:05:13,048] [ERROR] [database] Failed to load stock data: 'NoneType' object has no attribute 'error_code'
+[2025-03-31 12:06:03,988] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:06:05,748] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:06:05,841] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:06:06,182] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:06:06,205] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:06:06,247] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 12:06:06,256] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 12:06:06,261] [INFO] [database] Fetching data from 20250331 to 20250331
+[2025-03-31 12:06:06,329] [ERROR] [database] Failed to load stock data: 'NoneType' object has no attribute 'error_code'
+[2025-03-31 12:06:52,199] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:06:54,466] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:06:54,565] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:06:55,032] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:06:55,049] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:06:55,089] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 12:06:55,098] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 12:06:55,103] [INFO] [database] Fetching data from 20250331 to 20250331
+[2025-03-31 12:06:55,171] [ERROR] [database] Failed to load stock data: 'NoneType' object has no attribute 'error_code'
+[2025-03-31 12:08:18,082] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:08:20,274] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:08:20,370] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:08:20,802] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:08:20,824] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:08:20,872] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 12:08:20,883] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 12:08:20,894] [INFO] [database] Fetching data from 20250331 to 20250331
+[2025-03-31 12:08:20,964] [ERROR] [database] Failed to load stock data: 'NoneType' object has no attribute 'error_code'
+[2025-03-31 12:08:55,508] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:08:56,905] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:08:56,993] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:08:57,349] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250331
+[2025-03-31 12:08:57,377] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:08:57,451] [INFO] [database] Found 1 missing data ranges for sh.600622
+[2025-03-31 12:08:57,461] [INFO] [database] Fetching missing data ranges for sh.600622
+[2025-03-31 12:08:57,472] [INFO] [database] Fetching data from 20250331 to 20250331
+[2025-03-31 12:08:57,536] [ERROR] [database] Failed to load stock data: 'NoneType' object has no attribute 'error_code'
+[2025-03-31 12:09:24,476] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:09:24,995] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:09:25,083] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250330
+[2025-03-31 12:09:25,367] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250330
+[2025-03-31 12:09:25,390] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:09:25,439] [INFO] [database] Found 0 missing data ranges for sh.600622
+[2025-03-31 12:09:25,470] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:09:25,509] [ERROR] [database] Failed to load stock data: invalid input for query argument $2: '20250301' ('str' object has no attribute 'toordinal')
+[2025-03-31 12:11:49,962] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:11:51,466] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:11:51,567] [INFO] [database] Loading stock data for sh.600622 from 20250301 to 20250330
+[2025-03-31 12:11:51,831] [INFO] [database] Checking data completeness for sh.600622 from 20250301 to 20250330
+[2025-03-31 12:11:51,852] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:11:51,909] [INFO] [database] Found 0 missing data ranges for sh.600622
+[2025-03-31 12:11:51,953] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:11:52,062] [INFO] [database] Successfully loaded 880 rows for sh.600622
+[2025-03-31 12:12:05,309] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:12:09,900] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:25:21,681] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:25:24,027] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:25:24,065] [INFO] [database] Loading stock data for sh.600622 from 2025-03-01 to 2025-03-30
+[2025-03-31 12:25:24,397] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-01 to 2025-03-30
+[2025-03-31 12:25:24,398] [ERROR] [database] 检查数据完整性失败: strptime() argument 1 must be str, not datetime.date
+[2025-03-31 12:25:24,399] [ERROR] [database] Failed to load stock data: strptime() argument 1 must be str, not datetime.date
+[2025-03-31 12:27:03,837] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:27:05,070] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:27:05,108] [INFO] [database] Loading stock data for sh.600622 from 2025-03-01 to 2025-03-30
+[2025-03-31 12:27:05,352] [INFO] [database] Checking data completeness for sh.600622 from 2025-03-01 to 2025-03-30
+[2025-03-31 12:27:05,353] [ERROR] [database] 检查数据完整性失败: time data '2025-03-01' does not match format '%Y%m%d'
+[2025-03-31 12:27:05,353] [ERROR] [database] Failed to load stock data: time data '2025-03-01' does not match format '%Y%m%d'
+[2025-03-31 12:33:10,651] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:33:10,692] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:33:10,763] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:33:32,474] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:33:36,419] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:33:38,772] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:33:40,011] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:33:41,875] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:33:42,565] [INFO] [database] 数据库表结构初始化完成
+[2025-03-31 12:34:35,258] [INFO] [database] 数据库表结构初始化完成
