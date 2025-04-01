@@ -490,3 +490,7 @@
 [2025-04-02 03:38:01,840] [ERROR] [backtesting] ERROR | 处理事件失败: 'ScheduleEvent' object has no attribute 'engine'
 [2025-04-02 03:50:34,117] [INFO] [database] 数据库表结构初始化完成
 [2025-04-02 03:50:35,272] [INFO] [database] 数据库表结构初始化完成
+[2025-04-02 03:50:37,197] [ERROR] [backtesting] ERROR | 处理事件失败: 'ScheduleEvent' object has no attribute 'engine'
+[2025-04-02 03:50:37,799] [ERROR] [backtesting] ERROR | 处理事件失败: 'ScheduleEvent' object has no attribute 'engine'
+[2025-04-02 03:50:38,268] [ERROR] [backtesting] ERROR | 处理事件失败: 'ScheduleEvent' object has no attribute 'engine'
+[2025-04-02 03:50:38,712] [ERROR] [backtesting] ERROR | 处理事件失败: 'ScheduleEvent' object has no attribute 'engine'
