@@ -121,3 +121,4 @@
 [2025-05-15 00:24:47,175] [DEBUG] [strategy:87] [conn:N/A] 策略仓位更新 | 数量: 28.0 | 成本: 68.88
 [2025-05-15 00:24:47,666] [DEBUG] [strategy:87] [conn:N/A] 策略仓位更新 | 数量: 56.0 | 成本: 68.88
 [2025-05-15 00:24:47,666] [DEBUG] [strategy:87] [conn:N/A] 策略仓位更新 | 数量: 84.0 | 成本: 68.88
+[2025-05-15 00:24:52,618] [DEBUG] [chart_service:694] [conn:N/A] 作图参数{'main_chart': {'type': 'K线图', 'fields': ['close'], 'components': {}}, 'sub_chart': {'show': True, 'type': '柱状图', 'fields': ['volume'], 'components': {}}}
