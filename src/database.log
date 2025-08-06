@@ -27,3 +27,24 @@
 [2025-08-06 18:25:59,228] [ERROR] [database:350] [conn:N/A] Failed to load stock data: name 'logger' is not defined
 [2025-08-06 18:26:36,955] [WARNING] [database:443] [conn:N/A] StockInfo表为空
 [2025-08-06 18:45:15,457] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-06 19:04:58,512] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-06 19:15:23,126] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-06 19:17:22,184] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试1): cannot perform operation: another operation is in progress
+[2025-08-06 19:17:23,192] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试2): Task <Task pending name='Task-28' coro=<main() running at /Users/gaogao/Documents/vsc_work/awesome-Qsys/src/main.py:42> cb=[_run_until_complete_cb() at /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py:184]> got Future <Future pending cb=[BaseSelectorEventLoop._sock_write_done(14, handle=<Handle BaseS...0.20', 8080))>)()]> attached to a different loop
+[2025-08-06 19:17:25,196] [ERROR] [database:455] [conn:N/A] 检查StockInfo表状态失败(最终尝试): cannot perform operation: another operation is in progress
+[2025-08-06 19:17:25,196] [ERROR] [database:402] [conn:N/A] 获取所有股票信息失败: cannot perform operation: another operation is in progress
+[2025-08-06 19:18:24,232] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试1): 
+[2025-08-06 19:18:25,375] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-06 19:22:50,132] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试1): cannot perform operation: another operation is in progress
+[2025-08-06 19:22:51,144] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试2): Task <Task pending name='Task-28' coro=<main() running at /Users/gaogao/Documents/vsc_work/awesome-Qsys/src/main.py:42> cb=[_run_until_complete_cb() at /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py:184]> got Future <Future pending cb=[BaseSelectorEventLoop._sock_write_done(14, handle=<Handle BaseS...0.20', 8080))>)()]> attached to a different loop
+[2025-08-06 19:22:53,146] [ERROR] [database:455] [conn:N/A] 检查StockInfo表状态失败(最终尝试): cannot perform operation: another operation is in progress
+[2025-08-06 19:22:53,147] [ERROR] [database:402] [conn:N/A] 获取所有股票信息失败: cannot perform operation: another operation is in progress
+[2025-08-06 19:23:51,944] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试1): 
+[2025-08-06 19:23:53,085] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-06 19:28:09,529] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-06 19:46:05,814] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试1): cannot perform operation: another operation is in progress
+[2025-08-06 19:46:06,823] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试2): Task <Task pending name='Task-28' coro=<main() running at /Users/gaogao/Documents/vsc_work/awesome-Qsys/src/main.py:42> cb=[_run_until_complete_cb() at /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py:184]> got Future <Future pending cb=[BaseSelectorEventLoop._sock_write_done(14, handle=<Handle BaseS...0.20', 8080))>)()]> attached to a different loop
+[2025-08-06 19:46:08,824] [ERROR] [database:455] [conn:N/A] 检查StockInfo表状态失败(最终尝试): cannot perform operation: another operation is in progress
+[2025-08-06 19:46:08,824] [ERROR] [database:402] [conn:N/A] 获取所有股票信息失败: cannot perform operation: another operation is in progress
+[2025-08-06 19:47:07,363] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试1): 
+[2025-08-06 19:47:08,522] [WARNING] [database:443] [conn:N/A] StockInfo表为空
