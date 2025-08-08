@@ -48,3 +48,10 @@
 [2025-08-06 19:46:08,824] [ERROR] [database:402] [conn:N/A] 获取所有股票信息失败: cannot perform operation: another operation is in progress
 [2025-08-06 19:47:07,363] [WARNING] [database:457] [conn:N/A] 检查StockInfo表状态失败(尝试1): 
 [2025-08-06 19:47:08,522] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-08 15:02:41,178] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-08 15:30:15,146] [WARNING] [database:808] [conn:N/A] 未找到全球市场资金分布数据
+[2025-08-08 15:34:33,159] [WARNING] [database:808] [conn:N/A] 未找到全球市场资金分布数据
+[2025-08-08 15:34:50,673] [WARNING] [database:808] [conn:N/A] 未找到全球市场资金分布数据
+[2025-08-08 16:36:27,659] [ERROR] [database:844] [conn:N/A] 获取distinct值失败: connection was closed in the middle of operation
+[2025-08-08 16:40:03,977] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-08 16:40:32,998] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.603900, start_date:2024-09-30, end_date:2024-10-01, frequency: d
