@@ -48,3 +48,7 @@
 [2025-08-06 19:46:08,824] [ERROR] [database:402] [conn:N/A] è·å–æ‰€æœ‰è‚¡ç¥¨ä¿¡æ¯å¤±è´¥: cannot perform operation: another operation is in progress
 [2025-08-06 19:47:07,363] [WARNING] [database:457] [conn:N/A] æ£€æŸ¥StockInfoè¡¨çŠ¶æ€å¤±è´¥(å°è¯•1): 
 [2025-08-06 19:47:08,522] [WARNING] [database:443] [conn:N/A] StockInfoè¡¨ä¸ºç©º
+[2025-08-07 01:28:44,147] [WARNING] [database:443] [conn:N/A] StockInfo±íÎª¿Õ
+[2025-08-07 01:29:06,756] [WARNING] [database:331] [conn:QUERY-sh.603900] [sh.603900] Î´ÕÒµ½¹ÉÆ±Êı¾İ date_range=[2025-08-07~2025-08-07] frequency=d pool_status={'max_size': 15, 'active': 0, 'oldest': None}
+[2025-08-07 01:29:31,431] [ERROR] [database:350] [conn:N/A] Failed to load stock data: Î´»ñÈ¡µ½Êı¾İ, symbol: sh.603900, start_date:2024-09-30, end_date:2024-10-01, frequency: d
+[2025-08-07 01:32:43,379] [ERROR] [database:350] [conn:N/A] Failed to load stock data: Î´»ñÈ¡µ½Êı¾İ, symbol: sh.603900, start_date:2024-08-11, end_date:2024-08-12, frequency: d
