@@ -1,2 +1,9 @@
 [2025-08-11 01:16:46,354] [WARNING] [database:443] [conn:N/A] StockInfo表为空
 [2025-08-11 01:17:07,295] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.603900, start_date:2025-08-03, end_date:2025-08-04, frequency: d
+[2025-08-15 00:23:54,224] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-15 02:51:40,300] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-15 02:51:40,312] [ERROR] [database:402] [conn:N/A] 获取所有股票信息失败: No module named 'baostock'
+[2025-08-15 02:57:00,045] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-15 02:57:38,576] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-15 03:17:24,654] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.600604, start_date:2025-06-02, end_date:2025-06-03, frequency: d
+[2025-08-15 04:14:07,688] [WARNING] [database:443] [conn:N/A] StockInfo表为空
