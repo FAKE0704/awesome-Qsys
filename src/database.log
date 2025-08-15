@@ -7,3 +7,4 @@
 [2025-08-15 02:57:38,576] [WARNING] [database:443] [conn:N/A] StockInfo��Ϊ��
 [2025-08-15 03:17:24,654] [ERROR] [database:350] [conn:N/A] Failed to load stock data: δ��ȡ������, symbol: sh.600604, start_date:2025-06-02, end_date:2025-06-03, frequency: d
 [2025-08-15 04:14:07,688] [WARNING] [database:443] [conn:N/A] StockInfo��Ϊ��
+[2025-08-16 02:22:59,370] [WARNING] [database:443] [conn:N/A] StockInfo表为空
