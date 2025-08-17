@@ -8,3 +8,30 @@
 [2025-08-15 03:17:24,654] [ERROR] [database:350] [conn:N/A] Failed to load stock data: δ��ȡ������, symbol: sh.600604, start_date:2025-06-02, end_date:2025-06-03, frequency: d
 [2025-08-15 04:14:07,688] [WARNING] [database:443] [conn:N/A] StockInfo��Ϊ��
 [2025-08-16 02:22:59,370] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-16 15:24:32,993] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-16 16:52:25,250] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-16 17:53:17,359] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-16 18:02:33,146] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-16 18:58:34,948] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-16 19:15:19,310] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-16 19:24:55,413] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-16 23:35:12,639] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.000022, start_date:2025-04-01, end_date:2025-04-03, frequency: 5
+[2025-08-17 00:16:47,881] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.603900, start_date:2025-07-06, end_date:2025-07-07, frequency: d
+[2025-08-17 00:17:31,811] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.603900, start_date:2025-05-05, end_date:2025-05-06, frequency: d
+[2025-08-17 00:17:54,790] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.600604, start_date:2025-06-02, end_date:2025-06-03, frequency: d
+[2025-08-17 00:24:31,469] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.600604, start_date:2025-06-03, end_date:2025-06-03, frequency: d
+[2025-08-17 00:29:01,966] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 未获取到数据, symbol: sh.600604, start_date:2025-06-02, end_date:2025-06-03, frequency: d
+[2025-08-17 00:47:23,033] [ERROR] [database:274] [conn:N/A] 检查数据完整性失败: 
+[2025-08-17 00:47:23,034] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 
+[2025-08-17 00:48:37,961] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-17 00:48:57,962] [ERROR] [database:350] [conn:N/A] Failed to load stock data: 'NoneType' object has no attribute 'strftime'
+[2025-08-17 00:50:20,980] [ERROR] [database:350] [conn:N/A] Failed to load stock data: local variable 'end_date_str' referenced before assignment
+[2025-08-17 02:18:31,772] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-18 01:39:09,212] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-18 01:48:09,397] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-18 02:09:26,993] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-18 02:33:15,417] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-18 03:03:48,758] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-18 03:08:16,466] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-18 03:23:11,570] [WARNING] [database:443] [conn:N/A] StockInfo表为空
+[2025-08-18 03:35:12,596] [WARNING] [database:443] [conn:N/A] StockInfo表为空
