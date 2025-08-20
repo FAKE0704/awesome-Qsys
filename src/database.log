@@ -30044,3 +30044,197 @@ AttributeError: 'decimal.Decimal' object has no attribute 'iloc'
 [2025-08-21 00:19:00,925] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: SELL 508@10.3
 [2025-08-21 00:19:00,926] [DEBUG] [backtesting:273] [conn:N/A] 回测完成
 [2025-08-21 00:19:00,926] [DEBUG] [backtesting:371] [conn:N/A] 回测完成！
+[2025-08-21 01:44:44,121] [DEBUG] [database:28] [conn:N/A] DatabaseManager initialized, instance_id: 5183286336
+[2025-08-21 01:44:44,332] [DEBUG] [database:87] [conn:N/A] 连接池初始化成功, 循环ID: 4413047040
+[2025-08-21 01:44:44,332] [INFO] [database:95] [conn:N/A] 开始数据库表结构初始化...
+[2025-08-21 01:44:44,407] [DEBUG] [database:167] [conn:5183285472] 数据库表结构初始化完成
+[2025-08-21 01:44:44,407] [DEBUG] [database:171] [conn:N/A] 当前循环活跃状态: True
+[2025-08-21 01:44:44,407] [DEBUG] [database:62] [conn:N/A] initialize调用结束，总耗时: 0.29s
+[2025-08-21 01:44:46,877] [DEBUG] [database:379] [conn:N/A] 检查数据是否最新
+[2025-08-21 01:44:46,877] [DEBUG] [database:407] [conn:N/A] 检查StockInfo表状态(尝试1/3)
+[2025-08-21 01:44:46,877] [DEBUG] [database:408] [conn:5187993904] 当前活跃连接数: 1
+[2025-08-21 01:44:46,960] [WARNING] [database:434] [conn:N/A] StockInfo表为空
+[2025-08-21 01:44:47,408] [DEBUG] [database:502] [conn:N/A] Truncating StockInfo table
+[2025-08-21 01:44:47,429] [DEBUG] [database:506] [conn:N/A] Inserting 0 rows into StockInfo
+[2025-08-21 01:44:47,450] [INFO] [database:512] [conn:N/A] 成功更新StockInfo表数据，成功插入0行，失败0行
+[2025-08-21 01:45:01,323] [INFO] [database:289] [conn:N/A] Loading stock data for sh.603900 from 2025-04-01 to 2025-08-21
+[2025-08-21 01:45:01,323] [INFO] [database:218] [conn:N/A] Checking data completeness for sh.603900 from 2025-04-01 to 2025-08-21
+[2025-08-21 01:45:01,366] [INFO] [database:233] [conn:N/A] 从数据库获取 2025-04-01-2025-08-21 for sh.603900
+
+[2025-08-21 01:45:01,371] [INFO] [database:270] [conn:N/A] Found 1 missing data ranges for sh.603900
+[2025-08-21 01:45:01,381] [INFO] [database:300] [conn:N/A] missing_ranges [(datetime.date(2025, 8, 19), datetime.date(2025, 8, 20))]
+[2025-08-21 01:45:01,381] [INFO] [database:301] [conn:N/A] Fetching missing data ranges for sh.603900
+[2025-08-21 01:45:01,381] [INFO] [database:306] [conn:N/A] Fetching data from 2025-08-19 to 2025-08-20
+[2025-08-21 01:45:01,707] [INFO] [database:346] [conn:N/A] Successfully loaded 96 rows for sh.603900
+[2025-08-21 01:45:01,718] [INFO] [backtesting:166] [conn:N/A] 仓位策略创建成功: fixed_percent
+[2025-08-21 01:45:01,719] [DEBUG] [backtesting:512] [conn:N/A] 注册事件处理器: StrategySignalEvent
+[2025-08-21 01:45:01,719] [DEBUG] [backtesting:512] [conn:N/A] 注册事件处理器: OrderEvent
+[2025-08-21 01:45:01,719] [DEBUG] [backtesting:512] [conn:N/A] 注册事件处理器: FillEvent
+[2025-08-21 01:45:01,730] [DEBUG] [backtesting:512] [conn:N/A] 注册事件处理器: StrategySignalEvent
+[2025-08-21 01:45:01,731] [DEBUG] [backtesting:512] [conn:N/A] 注册事件处理器: StrategyScheduleEvent
+[2025-08-21 01:45:01,731] [DEBUG] [backtesting:537] [conn:N/A] 注册策略调度处理器: e933842c-50f6-4d8f-af18-a20492288aa7
+[2025-08-21 01:45:01,731] [INFO] [backtesting:540] [conn:N/A] 策略注册成功 | ID: e933842c-50f6-4d8f-af18-a20492288aa7 | 名称: 自定义规则策略
+[2025-08-21 01:45:01,731] [DEBUG] [backtesting:358] [conn:N/A] 开始回测...
+[2025-08-21 01:45:01,731] [DEBUG] [backtesting:215] [conn:N/A] 识别数据频率为：日线
+[2025-08-21 01:45:01,732] [DEBUG] [backtesting:241] [conn:N/A] 开始回测...
+[2025-08-21 01:45:01,732] [INFO] [backtesting:592] [conn:N/A] 回测系统初始化开始
+[2025-08-21 01:45:01,732] [INFO] [backtesting:604] [conn:N/A] 策略初始化完成: e933842c-50f6-4d8f-af18-a20492288aa7
+[2025-08-21 01:45:01,732] [INFO] [backtesting:615] [conn:N/A] 回测系统初始化完成
+[2025-08-21 01:45:01,742] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：7001.3997899999995；当前position_amount:0
+[2025-08-21 01:45:01,742] [DEBUG] [risk_manager:35] [conn:N/A] False
+[2025-08-21 01:45:01,742] [WARNING] [backtesting:418] [conn:N/A] 订单风险检查失败: 拒绝操作！
+[2025-08-21 01:45:01,744] [DEBUG] [risk_manager:29] [conn:N/A] 资金检查：尝试买入：6998.388887000001；当前available_cash:100000
+[2025-08-21 01:45:01,744] [DEBUG] [risk_manager:30] [conn:N/A] True
+[2025-08-21 01:45:01,744] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: BUY 1123@6.23
+[2025-08-21 01:45:01,744] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.10 (费率: 0.0003)
+[2025-08-21 01:45:01,744] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_0, 成交价=6.23, 数量=1123
+[2025-08-21 01:45:01,744] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,744] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_0', symbol='sh.603900', direction='BUY', fill_price=6.23, fill_quantity=1123, commission=2.098887, timestamp=datetime.datetime(2025, 4, 15, 0, 0))
+[2025-08-21 01:45:01,744] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: BUY 1123@6.23, 手续费: 2.10
+[2025-08-21 01:45:01,744] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: BUY 1123@6.23
+[2025-08-21 01:45:01,744] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: BUY 1123@6.23
+[2025-08-21 01:45:01,771] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：6999.539231999999；当前position_amount:6996.290000000001
+[2025-08-21 01:45:01,772] [DEBUG] [risk_manager:35] [conn:N/A] False
+[2025-08-21 01:45:01,772] [WARNING] [backtesting:418] [conn:N/A] 订单风险检查失败: 拒绝操作！
+[2025-08-21 01:45:01,779] [DEBUG] [risk_manager:29] [conn:N/A] 资金检查：尝试买入：6998.338871999999；当前available_cash:93003.70999999999
+[2025-08-21 01:45:01,779] [DEBUG] [risk_manager:30] [conn:N/A] True
+[2025-08-21 01:45:01,779] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: BUY 948@7.38
+[2025-08-21 01:45:01,779] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.10 (费率: 0.0003)
+[2025-08-21 01:45:01,779] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_1, 成交价=7.38, 数量=948
+[2025-08-21 01:45:01,779] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,779] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_1', symbol='sh.603900', direction='BUY', fill_price=7.38, fill_quantity=948, commission=2.0988719999999996, timestamp=datetime.datetime(2025, 5, 6, 0, 0))
+[2025-08-21 01:45:01,779] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: BUY 948@7.38, 手续费: 2.10
+[2025-08-21 01:45:01,779] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: BUY 948@7.38
+[2025-08-21 01:45:01,779] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: BUY 948@7.38
+[2025-08-21 01:45:01,824] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：7082.8442159999995；当前position_amount:15283.98
+[2025-08-21 01:45:01,824] [DEBUG] [risk_manager:35] [conn:N/A] True
+[2025-08-21 01:45:01,824] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: SELL 543@13.04
+[2025-08-21 01:45:01,824] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.12 (费率: 0.0003)
+[2025-08-21 01:45:01,824] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_2, 成交价=13.04, 数量=543
+[2025-08-21 01:45:01,824] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,824] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_2', symbol='sh.603900', direction='SELL', fill_price=13.04, fill_quantity=543, commission=2.1242159999999997, timestamp=datetime.datetime(2025, 6, 4, 0, 0))
+[2025-08-21 01:45:01,824] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: SELL 543@13.04, 手续费: 2.12
+[2025-08-21 01:45:01,824] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: SELL 543@13.04
+[2025-08-21 01:45:01,824] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: SELL 543@13.04
+[2025-08-21 01:45:01,828] [DEBUG] [risk_manager:29] [conn:N/A] 资金检查：尝试买入：7908.3918060000005；当前available_cash:93088.18999999999
+[2025-08-21 01:45:01,828] [DEBUG] [risk_manager:30] [conn:N/A] True
+[2025-08-21 01:45:01,828] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: BUY 674@11.73
+[2025-08-21 01:45:01,828] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.37 (费率: 0.0003)
+[2025-08-21 01:45:01,828] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_3, 成交价=11.73, 数量=674
+[2025-08-21 01:45:01,828] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,828] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_3', symbol='sh.603900', direction='BUY', fill_price=11.73, fill_quantity=674, commission=2.371806, timestamp=datetime.datetime(2025, 6, 9, 0, 0))
+[2025-08-21 01:45:01,828] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: BUY 674@11.73, 手续费: 2.37
+[2025-08-21 01:45:01,828] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: BUY 674@11.73
+[2025-08-21 01:45:01,828] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: BUY 674@11.73
+[2025-08-21 01:45:01,831] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：7762.488047999999；当前position_amount:25829.46
+[2025-08-21 01:45:01,831] [DEBUG] [risk_manager:35] [conn:N/A] True
+[2025-08-21 01:45:01,831] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: SELL 634@12.24
+[2025-08-21 01:45:01,831] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.33 (费率: 0.0003)
+[2025-08-21 01:45:01,831] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_4, 成交价=12.24, 数量=634
+[2025-08-21 01:45:01,831] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,831] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_4', symbol='sh.603900', direction='SELL', fill_price=12.24, fill_quantity=634, commission=2.328048, timestamp=datetime.datetime(2025, 6, 11, 0, 0))
+[2025-08-21 01:45:01,832] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: SELL 634@12.24, 手续费: 2.33
+[2025-08-21 01:45:01,832] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: SELL 634@12.24
+[2025-08-21 01:45:01,832] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: SELL 634@12.24
+[2025-08-21 01:45:01,835] [DEBUG] [risk_manager:29] [conn:N/A] 资金检查：尝试买入：7849.204055；当前available_cash:92942.32999999999
+[2025-08-21 01:45:01,835] [DEBUG] [risk_manager:30] [conn:N/A] True
+[2025-08-21 01:45:01,835] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: BUY 605@12.97
+[2025-08-21 01:45:01,835] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.35 (费率: 0.0003)
+[2025-08-21 01:45:01,835] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_5, 成交价=12.97, 数量=605
+[2025-08-21 01:45:01,835] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,835] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_5', symbol='sh.603900', direction='BUY', fill_price=12.97, fill_quantity=605, commission=2.354055, timestamp=datetime.datetime(2025, 6, 13, 0, 0))
+[2025-08-21 01:45:01,835] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: BUY 605@12.97, 手续费: 2.35
+[2025-08-21 01:45:01,835] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: BUY 605@12.97
+[2025-08-21 01:45:01,835] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: BUY 605@12.97
+[2025-08-21 01:45:01,840] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：7927.217451999999；当前position_amount:28183.81
+[2025-08-21 01:45:01,840] [DEBUG] [risk_manager:35] [conn:N/A] True
+[2025-08-21 01:45:01,840] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: SELL 682@11.62
+[2025-08-21 01:45:01,840] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.38 (费率: 0.0003)
+[2025-08-21 01:45:01,840] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_6, 成交价=11.62, 数量=682
+[2025-08-21 01:45:01,840] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,840] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_6', symbol='sh.603900', direction='SELL', fill_price=11.62, fill_quantity=682, commission=2.3774519999999995, timestamp=datetime.datetime(2025, 6, 19, 0, 0))
+[2025-08-21 01:45:01,840] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: SELL 682@11.62, 手续费: 2.38
+[2025-08-21 01:45:01,840] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: SELL 682@11.62
+[2025-08-21 01:45:01,840] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: SELL 682@11.62
+[2025-08-21 01:45:01,853] [DEBUG] [risk_manager:29] [conn:N/A] 资金检查：尝试买入：7715.413929999999；当前available_cash:93020.31999999998
+[2025-08-21 01:45:01,853] [DEBUG] [risk_manager:30] [conn:N/A] True
+[2025-08-21 01:45:01,853] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: BUY 685@11.26
+[2025-08-21 01:45:01,853] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.31 (费率: 0.0003)
+[2025-08-21 01:45:01,853] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_7, 成交价=11.26, 数量=685
+[2025-08-21 01:45:01,854] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,854] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_7', symbol='sh.603900', direction='BUY', fill_price=11.26, fill_quantity=685, commission=2.3139299999999996, timestamp=datetime.datetime(2025, 7, 3, 0, 0))
+[2025-08-21 01:45:01,854] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: BUY 685@11.26, 手续费: 2.31
+[2025-08-21 01:45:01,854] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: BUY 685@11.26
+[2025-08-21 01:45:01,854] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: BUY 685@11.26
+[2025-08-21 01:45:01,856] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：7678.642901999999；当前position_amount:24501.76
+[2025-08-21 01:45:01,856] [DEBUG] [risk_manager:35] [conn:N/A] True
+[2025-08-21 01:45:01,856] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: SELL 686@11.19
+[2025-08-21 01:45:01,856] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.30 (费率: 0.0003)
+[2025-08-21 01:45:01,856] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_8, 成交价=11.19, 数量=686
+[2025-08-21 01:45:01,856] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,856] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_8', symbol='sh.603900', direction='SELL', fill_price=11.19, fill_quantity=686, commission=2.3029019999999996, timestamp=datetime.datetime(2025, 7, 7, 0, 0))
+[2025-08-21 01:45:01,856] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: SELL 686@11.19, 手续费: 2.30
+[2025-08-21 01:45:01,856] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: SELL 686@11.19
+[2025-08-21 01:45:01,856] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: SELL 686@11.19
+[2025-08-21 01:45:01,861] [DEBUG] [risk_manager:29] [conn:N/A] 资金检查：尝试买入：7675.001810000001；当前available_cash:92983.55999999997
+[2025-08-21 01:45:01,861] [DEBUG] [risk_manager:30] [conn:N/A] True
+[2025-08-21 01:45:01,861] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: BUY 679@11.3
+[2025-08-21 01:45:01,861] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.30 (费率: 0.0003)
+[2025-08-21 01:45:01,861] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_9, 成交价=11.30, 数量=679
+[2025-08-21 01:45:01,861] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,861] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_9', symbol='sh.603900', direction='BUY', fill_price=11.3, fill_quantity=679, commission=2.30181, timestamp=datetime.datetime(2025, 7, 11, 0, 0))
+[2025-08-21 01:45:01,861] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: BUY 679@11.3, 手续费: 2.30
+[2025-08-21 01:45:01,861] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: BUY 679@11.3
+[2025-08-21 01:45:01,861] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: BUY 679@11.3
+[2025-08-21 01:45:01,865] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：7688.125746；当前position_amount:24509.7
+[2025-08-21 01:45:01,865] [DEBUG] [risk_manager:35] [conn:N/A] True
+[2025-08-21 01:45:01,865] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: SELL 774@9.93
+[2025-08-21 01:45:01,865] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.31 (费率: 0.0003)
+[2025-08-21 01:45:01,865] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_10, 成交价=9.93, 数量=774
+[2025-08-21 01:45:01,865] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,865] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_10', symbol='sh.603900', direction='SELL', fill_price=9.93, fill_quantity=774, commission=2.3057459999999996, timestamp=datetime.datetime(2025, 7, 16, 0, 0))
+[2025-08-21 01:45:01,865] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: SELL 774@9.93, 手续费: 2.31
+[2025-08-21 01:45:01,865] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: SELL 774@9.93
+[2025-08-21 01:45:01,866] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: SELL 774@9.93
+[2025-08-21 01:45:01,875] [DEBUG] [risk_manager:29] [conn:N/A] 资金检查：尝试买入：7476.292214999999；当前available_cash:92996.67999999996
+[2025-08-21 01:45:01,875] [DEBUG] [risk_manager:30] [conn:N/A] True
+[2025-08-21 01:45:01,875] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: BUY 765@9.77
+[2025-08-21 01:45:01,875] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.24 (费率: 0.0003)
+[2025-08-21 01:45:01,875] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_11, 成交价=9.77, 数量=765
+[2025-08-21 01:45:01,875] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,875] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_11', symbol='sh.603900', direction='BUY', fill_price=9.77, fill_quantity=765, commission=2.2422149999999994, timestamp=datetime.datetime(2025, 7, 25, 0, 0))
+[2025-08-21 01:45:01,875] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: BUY 765@9.77, 手续费: 2.24
+[2025-08-21 01:45:01,875] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: BUY 765@9.77
+[2025-08-21 01:45:01,875] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: BUY 765@9.77
+[2025-08-21 01:45:01,878] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：7457.4765720000005；当前position_amount:21103.2
+[2025-08-21 01:45:01,878] [DEBUG] [risk_manager:35] [conn:N/A] True
+[2025-08-21 01:45:01,878] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: SELL 767@9.72
+[2025-08-21 01:45:01,878] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.24 (费率: 0.0003)
+[2025-08-21 01:45:01,878] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_12, 成交价=9.72, 数量=767
+[2025-08-21 01:45:01,878] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,878] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_12', symbol='sh.603900', direction='SELL', fill_price=9.72, fill_quantity=767, commission=2.2365720000000002, timestamp=datetime.datetime(2025, 7, 29, 0, 0))
+[2025-08-21 01:45:01,878] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: SELL 767@9.72, 手续费: 2.24
+[2025-08-21 01:45:01,878] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: SELL 767@9.72
+[2025-08-21 01:45:01,878] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: SELL 767@9.72
+[2025-08-21 01:45:01,885] [DEBUG] [risk_manager:29] [conn:N/A] 资金检查：尝试买入：7451.7548560000005；当前available_cash:92977.86999999997
+[2025-08-21 01:45:01,885] [DEBUG] [risk_manager:30] [conn:N/A] True
+[2025-08-21 01:45:01,885] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: BUY 754@9.88
+[2025-08-21 01:45:01,885] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.23 (费率: 0.0003)
+[2025-08-21 01:45:01,885] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_13, 成交价=9.88, 数量=754
+[2025-08-21 01:45:01,885] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,885] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_13', symbol='sh.603900', direction='BUY', fill_price=9.88, fill_quantity=754, commission=2.2348559999999997, timestamp=datetime.datetime(2025, 8, 6, 0, 0))
+[2025-08-21 01:45:01,885] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: BUY 754@9.88, 手续费: 2.23
+[2025-08-21 01:45:01,885] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: BUY 754@9.88
+[2025-08-21 01:45:01,885] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: BUY 754@9.88
+[2025-08-21 01:45:01,894] [DEBUG] [risk_manager:34] [conn:N/A] 资金检查：尝试卖出：7469.740250000001；当前position_amount:21212.36
+[2025-08-21 01:45:01,894] [DEBUG] [risk_manager:35] [conn:N/A] True
+[2025-08-21 01:45:01,894] [DEBUG] [backtesting:362] [conn:N/A] 开始处理回测订单: SELL 725@10.3
+[2025-08-21 01:45:01,894] [DEBUG] [backtesting:369] [conn:N/A] 计算手续费: 2.24 (费率: 0.0003)
+[2025-08-21 01:45:01,894] [DEBUG] [backtesting:391] [conn:N/A] 创建模拟成交回报: 订单ID=backtest_order_14, 成交价=10.30, 数量=725
+[2025-08-21 01:45:01,894] [DEBUG] [backtesting:394] [conn:N/A] 开始处理成交回报事件...
+[2025-08-21 01:45:01,894] [DEBUG] [backtesting:689] [conn:N/A] 处理成交回报事件: FillEvent(order_id='backtest_order_14', symbol='sh.603900', direction='SELL', fill_price=10.3, fill_quantity=725, commission=2.24025, timestamp=datetime.datetime(2025, 8, 15, 0, 0))
+[2025-08-21 01:45:01,894] [INFO] [backtesting:723] [conn:N/A] 成交回报处理完成: SELL 725@10.3, 手续费: 2.24
+[2025-08-21 01:45:01,894] [DEBUG] [backtesting:396] [conn:N/A] 回测订单执行成功: SELL 725@10.3
+[2025-08-21 01:45:01,894] [DEBUG] [backtesting:351] [conn:N/A] 订单处理完成: SELL 725@10.3
+[2025-08-21 01:45:01,896] [DEBUG] [backtesting:273] [conn:N/A] 回测完成
+[2025-08-21 01:45:01,897] [DEBUG] [backtesting:371] [conn:N/A] 回测完成！
