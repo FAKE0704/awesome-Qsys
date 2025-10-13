@@ -1164,11 +1164,10 @@ class ChartService:
                      annotation_position="bottom right")
         
         # 添加零线参考
-        fig.add_hline(y=0, line_dash="dash", line_color="green",
+        fig.add_hline(y=0, line_dash="dash", line_color="green", 
                      annotation_text="盈亏平衡线")
-
-        # 显示图表
-        st.plotly_chart(fig, use_container_width=True)
+        
+        return fig
 
     def drawMA(self, data: Optional[DataFrame], periods: List[int]) -> List[go.Scatter]:
         """绘制均线"""

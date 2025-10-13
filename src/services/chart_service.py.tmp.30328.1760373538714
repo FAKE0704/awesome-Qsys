@@ -1097,11 +1097,14 @@ class ChartService:
         
         return fig
 
-    def draw_equity_and_allocation(self, equity_data: Optional[pd.DataFrame] = None) -> None:
+    def draw_equity_and_allocation(self, equity_data: Optional[pd.DataFrame] = None) -> go.Figure:
         """绘制净值与资产配置比例单轴图表
-
+        
         Args:
             equity_data: 净值数据DataFrame，包含timestamp, total_value, positions_value列
+            
+        Returns:
+            go.Figure: 配置好的单轴图表
         """
         
         # 数据准备：使用传入数据或默认数据源
@@ -1164,11 +1167,10 @@ class ChartService:
                      annotation_position="bottom right")
         
         # 添加零线参考
-        fig.add_hline(y=0, line_dash="dash", line_color="green",
+        fig.add_hline(y=0, line_dash="dash", line_color="green", 
                      annotation_text="盈亏平衡线")
-
-        # 显示图表
-        st.plotly_chart(fig, use_container_width=True)
+        
+        return fig
 
     def drawMA(self, data: Optional[DataFrame], periods: List[int]) -> List[go.Scatter]:
         """绘制均线"""
